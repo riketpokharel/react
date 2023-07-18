@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 
 export default function header(props) {
   return (
+    // navbar start
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
@@ -50,6 +51,7 @@ export default function header(props) {
         </div>
       </div>
     </nav>
+    // End of Navbar
   );
 }
 
